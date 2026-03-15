@@ -66,12 +66,14 @@ The project is ideal for understanding how real-world networked applications com
 ## 📁 Project Structure
 
 ```
-client-server/
+java-client-server-app/
 ├── src/
 │   └── king/
 │       ├── Server.java       # Server-side socket logic
 │       └── Client.java       # Client-side socket logic
-├── king/                     # Compiled .class files (auto-generated)
+├── images/
+│   └── output.png            # Output screenshot
+├── .gitignore                # Ignores .class files
 └── README.md
 ```
 
@@ -121,10 +123,10 @@ java king.Client
 
 ## 🖥️ Output Screenshot
 
+![Client Server Output](images/output.png)
+
 ### Terminal 1 — Server
 ```
-copy Server.java src\king\Server.java
-javac -d . src\king\Server.java src\king\Client.java
 java king.Server
 Server is running and waiting for a client...
 Client connected!
@@ -185,20 +187,35 @@ Program ended.
 git init
 ```
 
-### Step 2 — Add all files
+### Step 2 — Create .gitignore
 ```bash
-git add .
+echo "*.class" > .gitignore
+echo "king/" >> .gitignore
 ```
 
-### Step 3 — First commit
+### Step 3 — Add screenshot
+```bash
+mkdir images
+copy "C:\Users\kinga\OneDrive\Desktop\Screenshots\output.png" images\output.png
+```
+
+### Step 4 — Add all files
+```bash
+git add src/
+git add images/
+git add README.md
+git add .gitignore
+```
+
+### Step 5 — First commit
 ```bash
 git commit -m "Initial commit: Java Client-Server Chat Application"
 ```
 
-### Step 4 — Create repo on GitHub
-Go to [github.com](https://github.com) → Click **New Repository** → Name it → Click **Create Repository**
+### Step 6 — Create repo on GitHub
+Go to [github.com](https://github.com) → Click **New Repository** → Name: `java-client-server-app` → Click **Create Repository**
 
-### Step 5 — Link and push
+### Step 7 — Link and push
 ```bash
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/java-client-server-app.git
