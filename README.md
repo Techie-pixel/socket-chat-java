@@ -125,51 +125,6 @@ java king.Client
 
 ![Client Server Output](images/output.png)
 
-### Terminal 1 — Server
-```
-java king.Server
-Server is running and waiting for a client...
-Client connected!
-Numbers received: 34, 56
-Sent: First: Positive, Second: Positive
-Sent: First: Even, Second: Even
-Client disconnected.
-```
-
-### Terminal 2 — Client
-```
-java king.Client
-Connected to server!
-Enter first number: 34
-Enter second number: 56
-
---- MENU ---
-1 -> Odd/Even check
-2 -> Positive/Negative check
-3 -> Square of two numbers
-4 -> Disconnect
-Your choice: 2
-Server result: First: Positive, Second: Positive
-
---- MENU ---
-1 -> Odd/Even check
-2 -> Positive/Negative check
-3 -> Square of two numbers
-4 -> Disconnect
-Your choice: 1
-Server result: First: Even, Second: Even
-
---- MENU ---
-1 -> Odd/Even check
-2 -> Positive/Negative check
-3 -> Square of two numbers
-4 -> Disconnect
-Your choice: 4
-Server result: Disconnected. Goodbye!
-Program ended.
-```
-
----
 
 ## ⚠️ Important Notes
 
