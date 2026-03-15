@@ -1,0 +1,4 @@
+*.class
+king/
+Client.java
+Server.java
