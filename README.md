@@ -135,49 +135,6 @@ java king.Client
 
 ---
 
-## 📤 How to Push to GitHub
-
-### Step 1 — Initialize Git
-```bash
-git init
-```
-
-### Step 2 — Create .gitignore
-```bash
-echo "*.class" > .gitignore
-echo "king/" >> .gitignore
-```
-
-### Step 3 — Add screenshot
-```bash
-mkdir images
-copy "C:\Users\kinga\OneDrive\Desktop\Screenshots\output.png" images\output.png
-```
-
-### Step 4 — Add all files
-```bash
-git add src/
-git add images/
-git add README.md
-git add .gitignore
-```
-
-### Step 5 — First commit
-```bash
-git commit -m "Initial commit: Java Client-Server Chat Application"
-```
-
-### Step 6 — Create repo on GitHub
-Go to [github.com](https://github.com) → Click **New Repository** → Name: `java-client-server-app` → Click **Create Repository**
-
-### Step 7 — Link and push
-```bash
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/java-client-server-app.git
-git push -u origin main
-```
-
----
 
 ## 👨‍💻 Author
 
