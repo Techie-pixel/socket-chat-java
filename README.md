@@ -136,12 +136,6 @@ java king.Client
 ---
 
 
-## 👨‍💻 Author
-
-Made with ☕ and Java Sockets.
-
----
-
 <div align="center">
-  <p>⭐ If you found this helpful, give it a star on GitHub!</p>
+  <p>If you found this helpful, give it a ⭐ on GitHub!</p>
 </div>
