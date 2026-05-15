@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 About The Project
+## About The Project
 
 This **Java Client-Server Application** demonstrates core concepts of **socket programming** and **network communication** using Java's `java.net` package. The server listens on a dedicated port, accepts an incoming client connection, receives two numbers, and performs multiple arithmetic/logical operations on demand — all over a live TCP socket connection.
 
@@ -22,24 +22,24 @@ The project is ideal for understanding how real-world networked applications com
 
 ---
 
-## ✨ Features
+## Features
 
-### 🖥️ Server Side
-- **📡 Socket Listener:** Starts a `ServerSocket` on port `20074` and waits for client connections.
-- **🔢 Number Processing:** Receives two integers from the client and holds them in memory for the session.
-- **🔁 Persistent Loop:** Keeps the connection alive and serves multiple operations in a single session.
-- **📤 Result Dispatch:** Computes and sends results back to the client after every operation.
-- **🔌 Clean Disconnect:** Gracefully closes the connection when the client sends choice `4`.
+### Server Side
+- ** Socket Listener:** Starts a `ServerSocket` on port `20074` and waits for client connections.
+- ** Number Processing:** Receives two integers from the client and holds them in memory for the session.
+- ** Persistent Loop:** Keeps the connection alive and serves multiple operations in a single session.
+- ** Result Dispatch:** Computes and sends results back to the client after every operation.
+- ** Clean Disconnect:** Gracefully closes the connection when the client sends choice `4`.
 
-### 💻 Client Side
-- **🔗 Auto Connect:** Connects to the server on `localhost:20074` automatically on startup.
-- **📥 Number Input:** Takes two integers from the user and sends them to the server.
-- **📋 Interactive Menu:** Displays an operation menu repeatedly until the user disconnects.
-- **📨 Live Results:** Receives and displays the server's computed result in real time.
+### Client Side
+- ** Auto Connect:** Connects to the server on `localhost:20074` automatically on startup.
+- ** Number Input:** Takes two integers from the user and sends them to the server.
+- ** Interactive Menu:** Displays an operation menu repeatedly until the user disconnects.
+- ** Live Results:** Receives and displays the server's computed result in real time.
 
 ---
 
-## 🛠️ Operations Supported
+## Operations Supported
 
 | Choice | Operation | Example Output |
 | :---: | :--- | :--- |
@@ -50,7 +50,7 @@ The project is ideal for understanding how real-world networked applications com
 
 ---
 
-## 🏗️ Technical Stack
+## Technical Stack
 
 | Technology | Usage |
 | :--- | :--- |
@@ -63,7 +63,7 @@ The project is ideal for understanding how real-world networked applications com
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 java-client-server-app/
@@ -79,16 +79,16 @@ java-client-server-app/
 
 ---
 
-## ⚙️ How To Run
+## How To Run
 
-### 📋 Prerequisites
+### Prerequisites
 - **Java JDK** installed (version 8 or above)
 - **VS Code** with **Extension Pack for Java** installed
 - Two terminal windows (split terminal recommended)
 
 ---
 
-### 🚀 Step-by-Step Setup
+### Step-by-Step Setup
 
 #### Step 1 — Create folder structure
 ```bash
@@ -121,12 +121,12 @@ java king.Client
 
 ---
 
-## 🖥️ Output Screenshot
+## Output Screenshot
 
 ![Client Server Output](images/output.png)
 
 
-## ⚠️ Important Notes
+## Important Notes
 
 > **Always start the Server before the Client.**  
 > If the Client is started first, it will throw a `Connection refused` error because there is no server listening yet.
